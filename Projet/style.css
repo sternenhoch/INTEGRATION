@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400;500;700 & display=swap');
+
+/* Reset margin padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* haut de page */
+header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.Navigation{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.Navigation .leftNav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.leftNav svg{
+    width: 60px;
+    height: 60px;
+}
+
+.leftNav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.leftNav li, .btnLogin{
+    list-style-type: none;
+    font-size: 0.9rem;
+}
+
+.Navigation .rightNav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.rightNav .panier {
+    width: 22px;
+    height: 22px;
+}
+
+.rightNav .hamburger {
+    width: 22px;
+    height: 22px;
+    display: none;
+}
+
+/* Section Recherche */
+
+.containerDown {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerDown .infoContainerDown{
+    width: 90%;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.infoContainerDown .containerForm{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.infoContainerDown .containerForm .loupe {
+    width: 30px;
+    height: 30px;
+}
+
+.infoContainerDown .containerForm .boxInfo {
+    display: flex;
+    width: 800px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.boxInfo h5{
+    font-size: 1.2rem;
+}
+
+.boxInfo .boxInfoCenter {
+    display: flex;
+    gap: 20px;
+}
+
+.boxInfo .boxInfoCenter p {
+    font-weight:300;
+    font-size: 0.8rem;
+}
+
+.boxInfo .boxInfoCenter p span {
+    font-weight: bold;
+}
+
+
+.boxInfo .boxInfoCenter .note{
+    width: 20px;
+    height: 20px;
+}
+
+.containerMenu {
+    width: 250px;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 126, 126, 0.644);
+
+}
+
+.containerMenu svg{
+    width: 20px;
+    height: 20px;
+   
+}
+
+.containerMenu p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Fin haut de page */
+
+
+
+
+
+
+/* Responsive */
+
+@media(max-width:500px){
+   
+    .Navigation .leftNav .navbar li {
+        display: none;
+    }
+
+    .Navigation .rightNav .btnLogin {
+        display: none;
+    }
+
+    .Navigation .rightNav .hamburger {
+        display: block;
+    }
+
+/* Section containerDown */
+
+    .infoContainerDown{
+        flex-wrap: wrap;
+    }
+
+    .infoContainerDown .containerMenu{
+        width: 100%;
+    }
+
+    .infoContainerDown .boxInfo{
+        width: 100%;
+
+    }
+
+    .containerForm{
+        margin-top: 30px;
+        
+    }
+
+    .boxInfoCenter p{
+        display: none;
+    }
+
+    .containerForm .loupe{
+        width: 15px;
+        height: 15px;
+    }
+
+
+}
+
+@media(min-width:501px) and (max-width:768px){
+    
+}
