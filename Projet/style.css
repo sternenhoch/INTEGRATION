@@ -19,6 +19,7 @@ header {
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -113,16 +114,19 @@ header {
 
 .boxInfo h5{
     font-size: 1.2rem;
+  
 }
 
 .boxInfo .boxInfoCenter {
     display: flex;
     gap: 20px;
+    
 }
 
 .boxInfo .boxInfoCenter p {
     font-weight:300;
     font-size: 0.8rem;
+
 }
 
 .boxInfo .boxInfoCenter p span {
@@ -155,21 +159,47 @@ header {
 .containerMenu p{
     font-size: 1.2rem;
     font-weight: 300;
+    
 }
 
 
 
+main{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
 
+.containerFilterBy .containerMenu .containerRange p{
+    margin-top: 100px;
+}
 
-
-
-
+.containerImg1 .containerFilterBy{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+  
+}
+.containerImg1{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    margin-top: -220px;
+  
+ } 
+  .boxMusic2 .containerImg2{
+    width: 200px;
+    height: 200px;
+ }
 
 
 
 /* Fin haut de page */
-
-
 
 
 
