@@ -174,28 +174,7 @@ main{
     margin-top: 20px;
 }
 
-.containerFilterBy .containerMenu .containerRange p{
-    margin-top: 100px;
-}
 
-.containerImg1 .containerFilterBy{
-    display: flex;
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-  
-}
-.containerImg1{
-    display: grid;
-    gap: 10px;
-    justify-content: center;
-    margin-top: -220px;
-  
- } 
-  .boxMusic2 .containerImg2{
-    width: 200px;
-    height: 200px;
- }
 
 
 
