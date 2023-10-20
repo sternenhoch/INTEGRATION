@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+    margin: auto;
 }
 
 /* haut de page */
@@ -139,6 +141,9 @@ header {
     height: 20px;
 }
 
+.lesNoms{
+    margin-top: 1rem;
+}
 .containerMenu {
     width: 250px;
     height: 50px;
@@ -147,8 +152,19 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgba(128, 126, 126, 0.644);
+    margin-top: 10px;
 
 }
+
+.containerFilterBy .boxMusic1{
+    display: flex;
+    justify-content: space-between
+}
+
+.containerRange{
+    margin-top: 10px;
+}
+
 
 .containerMenu svg{
     width: 20px;
@@ -163,41 +179,84 @@ header {
 }
 
 
-
-main{
-    width: 100%;
-    background-color: white;
+.contenu1{
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
-
-.containerFilterBy .containerMenu .containerRange p{
-    margin-top: 100px;
-}
-
-.containerImg1 .containerFilterBy{
-    display: flex;
-    width: 200px;
-    height: 200px;
+.containerFilterBy{
     margin-top: 50px;
+    width: 26%;
+    height: 100%;
+    margin: 46px;
   
 }
 
-.containerImg1 img{
+.para{
+    width: 300%;
+    color: rgba(128, 128, 128, 0.598);
+}
+
+.menu{
+    width: 300px;
+}
+
+.article.bpmBoxMusic {
+    justify-content: left;
+}
+
+.containerImg1 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.containerImg2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.containerImg3 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.containerImg4 {
     width: 200px;
     height: 200px;
     display: flex;
     justify-content: center;
 }
-  
 
-  .boxMusic2 .containerImg2{
+.containerImg5 {
     width: 200px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+}
+ .containerImg6 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
  }
+
+ .containerImg7 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+ }
+
 
 
 
