@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400;500;700 & display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/avenir');
+                
 /* Reset margin padding */
 *{
     margin: 0;
@@ -51,9 +52,9 @@ header {
     gap: 20px;
 }
 
-.leftNav li, .btnLogin{
+.rightNav .btnLogin{
     list-style-type: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .Navigation .rightNav {
@@ -115,13 +116,15 @@ header {
 }
 
 .boxInfo h5{
-    font-size: 1.2rem;
-  
+    font-size: 1.2rem; 
 }
+
+
 
 .boxInfo .boxInfoCenter {
     display: flex;
     gap: 20px;
+    
     
 }
 
@@ -151,14 +154,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(128, 126, 126, 0.644);
+    border-bottom: 1px solid rgba(1, 33, 54, 0.285);
     margin-top: 10px;
 
 }
 
 .containerFilterBy .boxMusic1{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .containerRange{
@@ -182,15 +185,25 @@ header {
 .contenu1{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -40px;
+    margin-right: -40px;
+   
+  
 }
-.containerFilterBy{
+
+
+/*.containerFilterBy{
     margin-top: 50px;
     width: 26%;
     height: 100%;
     margin: 46px;
   
-}
+}*/
 
 .para{
     width: 300%;
@@ -201,9 +214,10 @@ header {
     width: 300px;
 }
 
-.article.bpmBoxMusic {
-    justify-content: left;
-}
+/*.containerInfoMusic .bpmBoxMusic1 {
+    text-align: left;
+}*/
+
 
 .containerImg1 {
     width: 200px;
@@ -211,8 +225,18 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+.containerInfoMusic .bpmBoxMusic1{
+    align-content: center;
+    justify-content: center;
+
+}
+
+.containerInfoMusic .genreMusical{
+    font-size: 0.5rem;
+}
 .containerImg2 {
     width: 200px;
     height: 200px;
@@ -257,8 +281,39 @@ header {
     justify-content: center;
  }
 
+ .contenu2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -40px;
+    margin-right: -40px;
+ }
 
+.pagination{
+    text-align: left;
+    margin: 95px;
+}
+.pagination a{
+    color:black; 
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    color: white;
+    background-color: black;
 
+}
+
+.pagination a:hover:not(.active){
+    color: black;
+    background-color: gray;
+    
+}
 
 /* Fin haut de page */
 
@@ -281,7 +336,13 @@ header {
         display: block;
     }
 
-/* Section containerDown */
+
+    /*.containerMenu{
+        justify-content: left;
+        align-content: left;
+    }*/
+
+/* Section containerDown ligne 39 html*/
 
     .infoContainerDown{
         flex-wrap: wrap;
@@ -293,12 +354,10 @@ header {
 
     .infoContainerDown .boxInfo{
         width: 100%;
-
     }
 
     .containerForm{
-        margin-top: 30px;
-        
+        margin-top: 30px;        
     }
 
     .boxInfoCenter p{
@@ -310,6 +369,26 @@ header {
         height: 15px;
     }
 
+    .contenu1{
+        display: grid;
+        width: 100%;
+    }
+
+    .containerFilterBy .para{
+        color: black;
+    }
+    
+    .containerFilterBy .containerMenu{
+        display: none;
+    }
+
+    .containerRange{
+        display: none;
+    }
+    
+    .contenu2{
+        display: none;
+    }
 
 }
 

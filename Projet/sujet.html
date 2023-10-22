@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
     <title>MC Music</title>
@@ -29,7 +30,7 @@
             </article>
             <article class="rightNav">
                 <img class="panier" src="Icone/panier.svg" alt="pannierDeCommande"/>
-                <img class="hamburger" src="Icone/Hamburger.svg" alt="Hamburger"/>
+                <img class="hamburger" src="Icone/Hamburger.svg" alt="menu découlant"/>
                 <p class="btnLogin">LOGIN</p>
             </article>
         </nav>
@@ -37,10 +38,12 @@
         <section class="containerDown">
             <article class="infoContainerDown"> 
                 <figure class="containerForm">
-                    <img class="loupe" src="Icone/loupe-arrondie.png    " alt="loupe"/>
+                    <img class="loupe" src="Icone/loupe-arrondie.png" alt="loupe"/>
 
                     <div class="boxInfo">
-                        <h5>My Music</h5>
+                        <blockquote lang="en">
+                         <h5>My Music</h5>   
+                        </blockquote>
                         <div class="boxInfoCenter">
                             <p>Powered by <span>Algolia</span></p>
                             <svg class="note" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -51,7 +54,9 @@
                 </figure>
     
                 <figure class="containerMenu">
-                    <p>Best Song</p>
+                    <blockquote lang="en">
+                        <p>Best Song</p>
+                    </blockquote>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                     </svg>
@@ -63,9 +68,11 @@
     <main>
         <article class="contenu1">
             <figure class="containerFilterBy">
+                <blockquote lang="en">
                 <p class="para">FILTER BY</p1>
+                </blockquote>  
                 <div class="containerMenu">
-                    <p>Collection</p>
+                    <p class="Menu">Collection</p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                     </svg>
@@ -78,7 +85,7 @@
                     </svg>
                 </div>
                 <div class="containerMenu">
-                    <p>BPM</p>
+                    <p class="Menu">BPM</p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                     </svg>
@@ -95,40 +102,51 @@
 
             <figure>
                 <div class="containerImg1">
-                    <img src="Img/2PAC.webp"/>
+                    <img src="Img/2PAC.webp" alt="image de l'album are you still down de twopac"/>
                 </div>
 
                 <div class="containerInfoMusic">
                     <article class="titleBoxMusic">
                     
                         <h5 class="lesNoms">2PAC</h5>
-                        <p>RAP US</p>
+                        <p class="genreMusical">RAP US</p>
 
                     </article>
 
                     <article class="bpmBoxMusic1">
                         
-                        <img src="Icone/panier.svg" alt="panier"/>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <img src="Icone/panier.svg" alt="cliquer pour ajouter au panier"/>
 
                     </article>
+                    
                 </div>
             </figure>
 
             <figure class="boxMusic2">
                 <div class="containerImg2">
-                    <img src="Img/ashanti.jpeg"/>
+                    <img src="Img/ashanti.jpeg" alt="image de l'album chapter two d'ashanti"/>
                 </div>
 
                 <div class="containerInfoMusic">
                     <article class="titleBoxMusic2">
                         <h5 class="lesNoms">ASHANTI</h5>
-                        <p>RnB US</p>
+                        <p class="genreMusical">RnB US</p>
 
                     </article>
 
                     <article class="bpmBoxMusic">
                         
-                        <img src="Icone/panier.svg" alt="panier"/>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <img src="Icone/panier.svg" alt="cliquer pour ajouter au panier"/>
 
                     </article>
                 </div>
@@ -136,39 +154,51 @@
 
             <figure class="boxMusic3">
                 <div class="containerImg3">
-                    <img src="Img/eric benet.jpeg"/>
+                    <img src="Img/eric benet.jpeg" alt="image de l'album love and life d'eric benet"/>
                 </div>
 
                 <div class="containerInfoMusic">
                     <article class="titleBoxMusic3">
                         <h5 class="lesNoms">ERIC BENET</h5>
-                        <p>RnB US</p>
+                        <p class="genreMusical">RnB US</p>
 
                     </article>
 
                     <article class="bpmBoxMusic">
                         <!-- <p>100 BPM</p> -->
-                        <img src="Icone/panier.svg" alt="panier"/>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <img src="Icone/panier.svg" alt="cliquer pour ajouter au panier"/>
 
                     </article>
                 </div>
             </figure>
+        </article>
+
+        <article class="contenu2">
 
             <figure class="boxMusic4">
                 <div class="containerImg4">
-                    <img src="Img/fugees.webp"/>
+                    <img src="Img/fugees.webp" alt="image de l'album The Score des Fugees"/>
                 </div>
 
                 <div class="containerInfoMusic">
                     <article class="titleBoxMusic4">
                         <h5 class="lesNoms">FUGEES</h5>
-                        <p>RAP EAST COAST</p>
+                        <p class="genreMusical">RAP EAST COAST</p>
 
                     </article>
 
                     <article class="bpmBoxMusic">
-                        
-                        <img src="Icone/panier.svg" alt="panier"/>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <img src="Icone/panier.svg" alt="cliquer pour ajouter au panier"/>
 
                     </article>
                 </div>
@@ -176,19 +206,23 @@
 
             <figure class="boxMusic5">
                 <div class="containerImg5">
-                    <img src="Img/mickael jackson.png"/>
+                    <img src="Img/mickael jackson.png" alt="image de l'album Thriller de Mickael Jacson"/>
                 </div>
 
                 <div class="containerInfoMusic">
                     <article class="titleBoxMusic5">
                         <h5 class="lesNoms">MICHAEL JACKSON</h5>
-                        <p>POP</p>
+                        <p class="genreMusical">POP</p>
 
                     </article>
 
                     <article class="bpmBoxMusic">
-                        
-                        <img src="Icone/panier.svg" alt="panier"/>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <img src="Icone/panier.svg" alt="cliquer pour ajouter au panier"/>
 
                     </article>
                 </div>
@@ -196,19 +230,23 @@
 
             <figure class="boxMusic6">
                 <div class="containerImg6">
-                    <img src="Img/notorius big.webp"/>
+                    <img src="Img/notorius big.webp" alt="image de l'album duets: final chapter de notorius big"/>
                 </div>
 
                 <div class="containerInfoMusic">
                     <article class="titleBoxMusic6">
                         <h5 class="lesNoms">THE NOTORIUS B.I.G.</h5>
-                        <p>RAP US</p>
+                        <p class="genreMusical">RAP US</p>
 
                     </article>
 
                     <article class="bpmBoxMusic">
-                        
-                        <img src="Icone/panier.svg" alt="panier"/>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <img src="Icone/panier.svg" alt="cliquer pour ajouter au panier"/>
 
                     </article>
                 </div>
@@ -216,42 +254,48 @@
 
             <figure class="boxMusic7">
                 <div class="containerImg7">
-                    <img src="Img/snoop.webp"/>
+                    <img src="Img/snoop.webp" alt="image de l'album tha blue carpet treatment de snoop dogg"/>
                 </div>
 
                 <div class="containerInfoMusic">
                     <article class="titleBoxMusic7">
                         <h5 class="lesNoms">SNOOP DOGG</h5>
-                        <p>RAP US</p>
+                        <p class="genreMusical">RAP US</p>
 
                     </article>
 
                     <article class="bpmBoxMusic">
-                       
-                        <img src="Icone/panier.svg" alt="panier"/>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <img src="Icone/panier.svg" alt="cliquer pour ajouter au panier"/>
 
                     </article>
                 </div>
             </figure>
 
-        
+      
         </article>
-
-
-
-
-
-
-
-
-
-
 
     </main>
 
 
     <footer>
-
+        <div class="pagination">
+            <a href="sujet.html"class="active">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+            <a href="">7</a>
+            <a href="">8</a>
+            <a href="">9</a>
+            <a href="">10</a>
+            <a href="">></a>
+        </div>
     </footer>
     
 </body>
